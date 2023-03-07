@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Creative ideas",
+    "description": " Creative ideas are the sparks that ignite innovation, unlocking new possibilities and driving progress.",
+    "img": "https://i.ibb.co/KDSRcmK/s1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Digital solutions",
+    "description": "Digital solutions offer powerfull ways to streamline processes, enhance communication, and drive growth for business.",
+    "img": "https://i.ibb.co/PzTCHTp/s2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brand & communication",
+    "description": " Brand & communication go hand in hand, creating a strong identity and connecting with customers.",
+    "img": "https://i.ibb.co/r6VyrdG/s3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Creative Strategy",
+    "description": "Creative strategy is the art of developing innovative ideas that solve business challenges.",
+    "img": "https://i.ibb.co/znDZP4M/s4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Marketing policy",
+    "description": "Marketing policy outlines the guidelines and principles for promoting products and services to target customers.",
+    "img": "https://i.ibb.co/j4nHyn8/s5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Campaign & PR",
+    "description": "Campaigns & PR aim to create a  positive image and generate buzz around a brand or product",
+    "img": "https://i.ibb.co/0tB9WvT/s6.jpg"
+  }
+]

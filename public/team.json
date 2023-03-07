@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Lucy Farnando",
+    "designation": "CEO & Founder",
+    "img": "https://i.ibb.co/R0yJQd6/m1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "James Anderson",
+    "designation": "HR & Admin",
+    "img": "https://i.ibb.co/m9yzwRM/m2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Thomas Nancy",
+    "designation": "Software Engineer",
+    "img": "https://i.ibb.co/pvWZX3r/m3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Nail Mathue",
+    "designation": "Creative Designer",
+    "img": "https://i.ibb.co/dJ5MPQj/m4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jeff Bezos",
+    "designation": "UI/UX Designer",
+    "img": "https://i.ibb.co/w03Ztd8/m5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bernard Arnault",
+    "designation": "Web Designer",
+    "img": "https://i.ibb.co/M2SrJsZ/m6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Warren Bufftt",
+    "designation": "Creative Supporter",
+    "img": "https://i.ibb.co/R0yJQd6/m1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Larry Ellison",
+    "designation": "Front End Developer",
+    "img": "https://i.ibb.co/m9yzwRM/m2.jpg"
+  }
+]

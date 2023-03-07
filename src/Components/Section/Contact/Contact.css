@@ -1,0 +1,117 @@
+.contact-area {
+  padding: 60px 0;
+  background-color: #080b1a;
+}
+.contact-area .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--primarycolor);
+  outline: 0;
+}
+.contact-form {
+  background-color: #c3c3c321;
+  border-radius: 5px;
+}
+.contact-form input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.contact-form textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.contact-form h3 {
+  color: #fff;
+}
+.contact-area button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primarycolor);
+  border: 1px solid var(--primarycolor);
+  color: #080b1a;
+  padding: 7px 15px;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+}
+.contact-area button:active {
+  background-color: transparent !important;
+  color: #121212;
+}
+.contact-area button:hover {
+  border: 1px solid var(--primarycolor);
+  background-color: transparent;
+  color: var(--textwhite) !important;
+}
+.contact-area .contact-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-info address {
+  line-height: 1.6;
+  margin: 20px 0;
+}
+.bg {
+  background-color: #080b1a;
+}
+
+@media (max-width: 991px) {
+  .contact-area {
+    padding: 40px 0;
+  }
+  .contact-area .contact-form h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact-area .contact-info {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .contact-info address {
+    margin: 10px 0;
+  }
+  .social-icon {
+    width: 65%;
+    margin: auto;
+  }
+  .social-icon i {
+    margin-left: 0px !important;
+  }
+}
+@media (max-width: 767px) {
+  .contact-area .contact-form {
+    padding: 20px !important;
+  }
+  .contact-area .contact-form h3 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .contact-area .contact-info {
+    padding: 20px !important;
+    text-align: center;
+  }
+  .contact-area .contact-info h3 {
+    margin-top: 20px;
+  }
+  .contact-area button {
+    margin-bottom: 15px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .social-icon {
+    width: 65%;
+    margin: auto;
+  }
+  .social-icon i {
+    margin: 0 !important;
+    margin: 0 5px !important;
+  }
+}

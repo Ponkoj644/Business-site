@@ -1,0 +1,18 @@
+.reg-area #message-div {
+  margin: 0;
+  padding: 0;
+  min-height: 24px;
+}
+.reg-area h2 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.reg-area p {
+  margin: 0;
+}
+
+.reg-link {
+  color: blue !important;
+  padding: 5px !important;
+  display: inline-block !important;
+}

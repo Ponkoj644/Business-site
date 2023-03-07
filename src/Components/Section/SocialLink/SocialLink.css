@@ -1,0 +1,30 @@
+.social-icon {
+  margin-top: 20px;
+}
+.social-icon h3 {
+  font-size: 25px;
+}
+
+.social-icon i {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: var(--primarycolor);
+  border: 1px solid var(--primarycolor);
+  color: #080b1a;
+  border-radius: 50%;
+  transition: 0.3s all ease-in-out;
+  margin-right: 15px;
+}
+.social-icon i:hover {
+  background-color: transparent;
+  border: 1px solid var(--primarycolor);
+  color: var(--textwhite);
+}
+@media (max-width: 991px) {
+  .social-icon i {
+    margin-right: 10px;
+  }
+}

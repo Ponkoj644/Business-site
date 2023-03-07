@@ -1,0 +1,54 @@
+.reg-area {
+  background-color: #fff;
+  margin-top: 70px;
+  text-align: end;
+}
+
+.reg-area .img-div img {
+  width: -webkit-fill-available;
+}
+.reg-area .reg-form {
+  padding: 30px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px lightblue;
+  border-radius: 10px;
+  height: 80%;
+  margin: auto;
+}
+
+.reg-area .reg-form Button {
+  margin-top: 5px;
+  width: 100%;
+  background-color: var(--primarycolor);
+  border: none;
+  color: var(--textblack);
+  font-weight: 500;
+}
+.reg-area .reg-form Button:active {
+  background-color: var(--primarycolor);
+  color: var(--textblack);
+}
+.reg-area #message-div {
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 24px;
+}
+.reg-link {
+  display: inline-block;
+  color: blue;
+  margin-left: 5px;
+}
+.or-style {
+  display: block;
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 15px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .reg-area .reg-form {
+    padding: 20px;
+  }
+}

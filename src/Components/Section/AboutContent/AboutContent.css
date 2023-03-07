@@ -1,0 +1,102 @@
+.about-area {
+  padding: 60px 0;
+  background-color: #080b1a;
+}
+.about-img {
+  width: 85%;
+  position: relative;
+  z-index: 1;
+}
+.about-img::after {
+  position: absolute;
+  content: "";
+  right: -15%;
+  bottom: 40%;
+  transform: translateY(50%);
+  width: 29%;
+  height: 20%;
+
+  background-image: url(../../../images/dotted-square.png);
+  z-index: -1;
+  animation: spin infinite 20s linear;
+}
+
+.about-img img {
+  border-radius: 10px;
+}
+.about-text h3 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.about-text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.about-text h2 {
+  margin-bottom: 15px;
+}
+.btn-about {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  border-radius: 5px;
+  transition: 0.2s all ease-in-out;
+}
+.btn-about i {
+  margin-left: 5px;
+  transition: 0.2s all ease-in-out;
+}
+.btn-about:hover {
+  transform: translateX(5px);
+  color: var(--primarycolor);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 991px) {
+  .about-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-img::after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .about-area {
+    padding: 40px 0;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text h2 {
+    margin: 15px 0;
+    font-size: 30px;
+  }
+  .about-text p {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 575px) {
+  .about-text h2 {
+    font-size: 25px;
+  }
+}

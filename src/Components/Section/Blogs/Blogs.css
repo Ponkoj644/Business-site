@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+  .single-blog:last-child {
+    margin-bottom: 25px !important;
+  }
+}

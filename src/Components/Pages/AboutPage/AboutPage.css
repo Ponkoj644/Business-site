@@ -1,0 +1,110 @@
+.about-page {
+  margin-top: 75px;
+  color: var(--textwhite);
+  background-color: #fff;
+}
+.page-header {
+  background-image: url(../../../images/subheader-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-content {
+  min-height: 360px;
+}
+.header-content-inner {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-content-inner h2 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -5px;
+  margin-bottom: 18px;
+}
+.header-content-inner p {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.aboutPage-text {
+  padding: 70px 0;
+  color: var(--textblack);
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.about-content h6 {
+  font-weight: 500;
+  color: var(--textblack);
+  line-height: 1.6;
+  font-size: 17px;
+
+}
+.about-content h2 {
+  font-size: 36px !important;
+  font-weight: 600;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+.about-content p {
+  margin-bottom: 0;
+}
+.team-member {
+  padding: 100px 0 !important;
+  background-color: #f8f9fc;
+  color: var(--textblack);
+  cursor: pointer;
+  padding: 10px 0;
+}
+.single-member {
+  transition: 0.4s;
+}
+.single-member:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.member-detail {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.member-detail h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.member-detail h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #080b1a;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .aboutPage-text {
+    padding: 50px 0;
+    
+  }
+  .team-member {
+    padding: 70px 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .header-content-inner h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .header-content-inner h2 {
+    font-size: 32px;
+  }
+  .header-content-inner p {
+    font-size: 15px;
+  }
+}

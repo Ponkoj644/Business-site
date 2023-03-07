@@ -1,0 +1,15 @@
+.not-found-area {
+  padding: 100px;
+  text-align: center;
+  color: var(--textblack);
+  background-color: #fff;
+}
+
+.not-found-area h4 {
+  font-size: 32px;
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+.not-found-area h2 {
+  font-size: 85px;
+}
