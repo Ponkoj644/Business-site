@@ -3,6 +3,9 @@
   margin-top: 70px;
   text-align: end;
 }
+.reg-area h2 {
+  padding-top: 25px;
+}
 
 .reg-area .img-div img {
   width: -webkit-fill-available;
