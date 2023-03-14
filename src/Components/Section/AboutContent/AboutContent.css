@@ -51,13 +51,16 @@
   border-radius: 5px;
   transition: 0.2s all ease-in-out;
 }
+.about-text a:hover {
+  color: var(--textwhite);
+}
 .btn-about i {
-  margin-left: 5px;
+  margin-left: 3px;
   transition: 0.2s all ease-in-out;
 }
-.btn-about:hover {
+.btn-about:hover i {
   transform: translateX(5px);
-  color: var(--primarycolor);
+  color: var(--primarycolor) !important;
 }
 
 @keyframes spin {

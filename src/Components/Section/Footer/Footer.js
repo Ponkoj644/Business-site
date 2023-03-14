@@ -93,8 +93,6 @@ const Footer = () => {
                 <address>
                   Mohakhali, Dhaka-1212, Bangladesh.
                   <br />
-                  https://example.com
-                  <br />
                   (+880) 1833 044436
                 </address>
               </div>

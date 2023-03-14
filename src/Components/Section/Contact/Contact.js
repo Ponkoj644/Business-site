@@ -46,7 +46,7 @@ const Contact = () => {
                   required
                 />
               </Form.Group>
-              <Button type="submit" className="ms-auto">
+              <Button type="submit" className="ms-start">
                 Submit
               </Button>
             </Form>
@@ -55,11 +55,9 @@ const Contact = () => {
             <div className="contact-info px-5">
               <h3>Contact Info</h3>
               <address>
-                2005 Stokes Isle Apartment. 896, <br /> Washington 10010, USA
+                Mohakhali, Dhaka-1212, <br /> Bangladesh.
                 <br />
-                https://example.com
-                <br />
-                (+68) 120034509
+                (+880) 1833-044436
               </address>
               <SocialLink LinkHeading="We are also In" />
             </div>
